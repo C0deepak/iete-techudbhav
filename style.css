@@ -404,7 +404,7 @@ nav img{
 }
 
 .newsBox .send {
-    background: linear-gradient(to right, var(--gradient1), var(--gradient2));
+    background: var(--secondary-bg);
     padding: .5rem 2.5rem;
     margin-right: .2rem;
     border-radius: 2rem;
