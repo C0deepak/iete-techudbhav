@@ -296,6 +296,11 @@ nav img{
     }
 }
 
+.eventresponsive{
+    display: flex;
+    flex-direction: row;
+}
+
 .individualEvents .eventDate span {
     padding-top: .8rem;
     font-size: 2rem;
@@ -2071,3 +2076,85 @@ nav img{
         box-shadow: 0 0 2vw 0.4vw yellow;
     }
 }
+
+/*------Hero-Sec Responsive------*/
+@media screen and (max-width: 1000px) {
+    .hero .text span{
+        font-size: 5rem;
+    }
+    .text span .cap{
+        top: -120px; right: -90px;
+    }
+    .text span .alien{
+        width: 200px;
+        top: -50px; left: 0px;
+    }
+    .text span .eoa{
+        width: 175px;
+        top: 50%; left: 50%;
+    }
+  }
+
+  @media screen and (max-width: 740px) {
+    .text span .alien{
+        width: 160px;
+        top: -50px; left: 10px;
+    }
+    .hero .text span{
+        font-size: 4rem;
+    }
+    .text span .cap{
+        width: 160px;
+        top: -110px; right: -100px;
+    }
+    .text span .eoa{
+        width: 150px;
+        top: 50%; left: 50%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .hero .text span{
+        font-size: 3rem;
+    }
+    .text span .cap{
+        width: 140px;
+        top: -100px; right: -90px;
+    }
+    .text span .eoa{
+        width: 125px;
+        top: 50%; left: 50%;
+    }
+    .text span .alien{
+        width: 125px;
+        top: -50px; left: 10px;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .hero .text span{
+        font-size: 2.5rem;
+    }
+    .text span .cap{
+        width: 100px;
+        top: -70px; right: -50px;
+    }
+    .text span .eoa{
+        width: 100px;
+        top: 50%; left: 50%;
+    }
+    .text span .alien{
+        width: 115px;
+        top: -35px; left: 8px;
+    }
+  }
+
+  /*Event-Sec Responsive*/
+  @media screen and (max-width: 700px) {
+    .eventresponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
